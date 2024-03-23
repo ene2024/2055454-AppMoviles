@@ -7,11 +7,41 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePage implements OnInit{
 
-  constructor() {}
+  constructor() {
+    console.log("AppComponent: Constructors");
+  }
+
+  ngOnChanges(){
+    console.log("AppComponent: OnChanges");
+  }
 
   ngOnInit(): void{
-
+    console.log("AppComponent: OnInit");
   }
+
+  ngDoCheck(){
+    console.log("AppComponent: DoCheck");
+  }
+
+  ngAfterContentInit(){
+    console.log("AppComponent: AfterContentInit");
+  }
+
+  ngAfterContentChecked(){
+    console.log("AppComponent:AfterContentChecked");
+  }
+  ngAfterViewInit(){
+    console.log("AppComponent:AfterViewInit");
+  }
+
+  ngAfterViewChecked(){
+    console.log("AppComponent: AfterViewChecked");
+  }
+
+  ngOnDestroy(){
+    console.log("AppComponent:OnDestroy");
+  }
+
 
   verdadero: boolean = false;
 
@@ -24,4 +54,6 @@ export class HomePage implements OnInit{
   imgUrl: string = 'https://i.redd.it/7ksiaa4exhh01.gif'
 
   nombreAlumno: string = '';
+
+
 }
