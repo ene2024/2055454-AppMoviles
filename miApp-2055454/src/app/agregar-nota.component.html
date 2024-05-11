@@ -1,0 +1,8 @@
+<div class="agregar-nota-container">
+    <h2>Agregar Nota</h2>
+    <input type="text" [(ngModel)]="nuevaNota.nombre" placeholder="Nombre"><br>
+    <input type="text" [(ngModel)]="nuevaNota.fecha" placeholder="Fecha"><br>
+    <textarea [(ngModel)]="nuevaNota.descripcion" placeholder="Descripción"></textarea><br>
+    <button (click)="agregarNota()">Agregar</button>
+  </div>
+  

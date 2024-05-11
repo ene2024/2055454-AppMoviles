@@ -1,0 +1,21 @@
+.nota {
+    background-color: #d874ff; /* Color de fondo oscuro para notas */
+    color: #000000; /* Texto blanco */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #555; /* Color de fondo oscuro para botones */
+    color: #fff; /* Texto blanco */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  button:hover {
+    background-color: #777; /* Color de fondo oscuro más claro al pasar el mouse */
+  }
+  

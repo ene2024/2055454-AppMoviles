@@ -42,11 +42,9 @@ export class HomePage implements OnInit{
     console.log("AppComponent:OnDestroy");
   }
 
+title: string = 'Notas: No se porque no aparece nada :(';
 
-  verdadero: boolean = false;
-
-  title: string = 'Mi nueva pagina';
-
+  /*verdadero: boolean = false;
   hazmeClic(): void{
     alert("Hiciste clic!");
   }
@@ -55,5 +53,5 @@ export class HomePage implements OnInit{
 
   nombreAlumno: string = '';
 
-
+*/
 }

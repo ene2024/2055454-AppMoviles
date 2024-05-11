@@ -1,0 +1,20 @@
+.agregar-nota-container {
+    background-color: #b120c4; /* Color de fondo oscuro para el contenedor */
+    color: #131212; /* Texto blanco */
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #4d4d4d; /* Color de fondo oscuro para botones */
+    color: #fff; /* Texto blanco */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  button:hover {
+    background-color: #af9b9b; /* Color de fondo oscuro más claro al pasar el mouse */
+  }
+  

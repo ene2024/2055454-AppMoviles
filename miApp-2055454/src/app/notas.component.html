@@ -1,0 +1,7 @@
+<div *ngFor="let nota of notas; let i = index" class="nota">
+    <h3>{{ nota.nombre }}</h3>
+    <p>Fecha: {{ nota.fecha }}</p>
+    <p>{{ nota.descripcion }}</p>
+    <button (click)="eliminarNota(i)">Eliminar</button>
+  </div>
+  
